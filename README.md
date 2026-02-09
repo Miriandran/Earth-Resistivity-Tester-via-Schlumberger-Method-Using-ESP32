@@ -7,6 +7,9 @@ A specialized IoT-enabled tool designed to measure soil resistivity for electric
 ## 📝 Project Overview
 Soil resistivity is a vital factor in ensuring the safety and reliability of electrical installations. This project utilizes the **ESP32** microcontroller combined with high-precision sensors to calculate resistivity based on current injection and potential difference measurements.
 
+## Schlumberger Configuration Method
+![Schlumberger Configuration Method](Hardware/Schlumberger-Configuration.png)
+
 ## ✨ Key Features
 * **Schlumberger Method**: Supports flexible electrode spacing for layered soil analysis.
 * **Dual Monitoring**: View results via a local **16x2 LCD** and **Serial Monitor**.
@@ -30,6 +33,7 @@ Soil resistivity is a vital factor in ensuring the safety and reliability of ele
 | **Keypad Columns** | 16, 4, 15 | Digital Input |
 | **Relay Module** | (Specified in code) | Digital Output |
 
+## Schematic Diagram
 ![Earth Resistivity Tester Schematic](Hardware/Schematic-Diagram.png)
 
 ## 📊 Scientific Calculation
@@ -49,5 +53,3 @@ Where:
 3. **Start Measurement**: Press the '#' key to trigger the measurement cycle.
 4. **Read Data**: The device will inject current, read sensors, and display the calculated **Ohm-m** value on the LCD.
 
----
-*This project is intended for educational purposes and the development of open-source electrical protection systems.*
